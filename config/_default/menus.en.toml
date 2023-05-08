@@ -1,0 +1,52 @@
+# main menu
+[[main]]
+name = "About"
+url = "about/"
+weight = 2
+
+[[main]]
+name = "Contact"
+url = "contact/"
+weight = 6
+  
+[[main]]
+name = "Communities"
+weight = 7
+hasChildren = true
+
+  [[main]]
+  parent = "Communities"
+  name = "Columbia, MO"
+  url = "long-term-rentals/"
+  weight = 1
+
+  [[main]]
+  parent = "Communities"
+  name = "Moberly"
+  url = "services/service-1/"
+  weight = 3
+
+################################### Footer Menu #####################################
+[[footer]]
+name = "Terms & Conditions"
+url = "/terms"
+
+[[footer]]
+name = "Privacy Policy"
+url = "/privacy-policy"
+
+[[about]]
+name = "Our Story"
+url = "/our-story"
+
+[[about]]
+name = "Team"
+url = "/team"
+
+[[help]]
+name = "FAQs"
+url = "/faq"
+
+[[help]]
+name = "Contact Us"
+url = "/contact"
