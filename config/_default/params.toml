@@ -23,6 +23,7 @@ custom_script= ""
 enable = false
 preloader = "" # use jpg, png, svg or gif format.
 
+
 # Navigation buttons
 [navigation_button_solid]
 enable = true
